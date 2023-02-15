@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CVA chapai</title>
+  <link rel="stylesheet" type="text/css" href="cva.css">
+</head>
+<body>
+  <header>
+    <img src="images/logocva.png" calss="logo">  
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <h1>ROCK -Paper-scissors</h1>
+    <form action="rock.php" method="post"enctype="multipart/form-data">
+    <label> <input type="radio"name="hand" value="1" required >
+      <img src="goo.jpg" style="width: 75px;height: 75px;"> </label>
+      <label><input type="radio" name="hand" value="2"  >
+     <img src="choki.jpg" style="width: 75px;height: 75px;"></label>
+      <label><input type="radio" name="hand"  value="3" >
+     <img src="pa.jpg"style="width: 75px;height: 75px;"></label>
+      <br>
+    <br>
+      <lable for="option"required>option:</lable>&nbsp;
+      <select name="option" > 
+     <option value="1">random</option>    
+     <option value="2">win</option>
+     <option value="3">lose</option>
+    <option value="4">DraW</option>
+    </select>
+       &nbsp;&nbsp;
+    <input style="display" type="submit"  value="Game start">
+    </form>   
+</body>
+</html>

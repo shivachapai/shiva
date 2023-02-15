@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  width: 100%;
+}
+
+header img.logo {
+  width: 40px;
+  height: 40px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+}
+
+main {
+  padding: 1em;
+}
+
+section {
+  margin-bottom: 1em;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+}
+
+#about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#about h1 {
+  font-size: 48px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#about h1 span {
+  color: red;
+}
+
+#about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+span {
+  color: red;
+}
+
+#projects {
+  display: flex;
+  align-items: center;
+}
+
+#projects h2 {
+  margin-bottom: 5rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+#projects ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#projects li {
+  margin: 1em;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #333;
+}
